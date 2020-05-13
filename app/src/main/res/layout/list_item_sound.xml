@@ -13,5 +13,6 @@
         android:layout_height="120dp"
         android:text="@{viewModel.title}"
         android:onClick="@{() -> viewModel.onButtonClicked()}"
+        style="@style/BeatBoxButton.Strong"
         tools:text="Sound name"/>
 </layout>
